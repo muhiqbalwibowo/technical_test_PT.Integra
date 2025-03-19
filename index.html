@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nilai Siswa</title>
+    <style>
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #ddd;
+      }
+      .nilai-rendah {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>NRP</th>
+          <th>Student</th>
+          <th>Subject</th>
+          <th>Test</th>
+          <th>Test Score</th>
+          <th>Final Score</th>
+          <th>Median</th>
+        </tr>
+      </thead>
+      <tbody id="tabel-nilai"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
